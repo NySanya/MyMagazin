@@ -1,0 +1,16 @@
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/Cart/updaterCart.java
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/Servlets/RegistrationServlet.java
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/Servlets/CreateGoodServlet.java
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/Servlets/LoginServlet.java
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/Servlets/LogoutServlet.java
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/Servlets/EditGoodServlet.java
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/User/Users.java
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/Goods/Goods.java
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/Cart/Cart.java
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/Servlets/CartServlet.java
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/User/User.java
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/Servlets/RemoveGoodServlet.java
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/Goods/Good.java
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/Servlets/EditServlet.java
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/Servlets/Main.java
+/home/osboxes/apache-tomcat-9.0.54/webapps/ServletMagazin/src/main/java/Goods/ActualGoods.java

@@ -1,0 +1,283 @@
+body{
+	background: #AAA;
+}
+
+p{
+	padding-left:20px;
+}
+
+img#editImg{
+	display:block;
+	margin-left: 50px
+}
+
+button#bBuy{
+	color:white;
+	background: red;
+	padding: 10px 25px;
+	font-size: 14pt;
+	border: none;
+	margin-left:60px;
+	border-radius: 3px;
+	cursor:pointer;
+}
+
+input#iImg{
+	margin: 100px 10px;
+	color:red;
+}
+
+input#iCreate{
+	color:white;
+	background: red;
+	padding: 10px 25px;
+	font-size: 14pt;
+	border: none;
+	margin-left:45px;
+	border-radius: 3px;
+	cursor:pointer;
+}
+
+.adder{
+	display: inline-flex;
+	margin-left:55px;
+}
+
+input#iValGood{
+	text-align:center;
+}
+
+button#bRemoved{
+	color:white;
+	background: red;
+	padding: 10px 25px;
+	font-size: 14pt;
+	border: none;
+	margin-top:5px;
+	margin-left:40px;
+	border-radius: 3px;
+	cursor:pointer;
+}
+
+input#invisibleInput{
+	display: none;
+}
+
+a{
+	color: #000 !important;
+	text-decoration: none;
+	font-size: 14pt;
+}
+
+img#imgGoods{
+	width: 190px;
+	height:190px;
+	padding: 5px 5px;
+
+}
+
+a#cart{
+	padding-top:13px;
+	padding-bottom:13px;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+a#log{
+	padding-top:13px;
+	padding-bottom:13px;
+	padding-left:45px;
+	padding-right:50px;
+}
+
+.description{
+	border: 1px solid black;
+	border-radius: 3px;
+	background: #FFF;
+	width: 186px;
+	margin-left: 6px;
+	margin-bottom:2px;
+}
+
+a#reg{
+	padding-top:13px;
+	padding-bottom:13px;
+	padding-left:15px;
+	padding-right:30px;
+}
+
+
+
+.good{
+	background: #AAA;
+	width: 200px;
+	height: 400px;
+	margin: 15px 10px 10px 10px;
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 3px; 
+}
+
+.goodCart{
+	background: #AAA;
+	width: 200px;
+	height: 420px;
+	margin: 15px 10px 10px 10px;
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 3px; 
+}
+
+.goodDiv{
+	background: #F9F0DA;
+	width:auto;
+	height:auto;
+	border: 2px solid black;
+	margin: 5px 0;
+	
+}
+
+.goodCartCreate{
+	background: #F9F0DA;
+	width: 200px;
+	height: 410px;
+	margin: 15px 10px 10px 10px;
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 3px; 
+}
+
+.loginDiv{
+	margin-left: 40%;
+	margin-right:40%;
+	margin-top: 100px;
+	
+	padding-left:100px;
+	padding-right:100px;
+	padding-top:50px;
+	padding-bottom:50px;
+
+	background:#FFF;
+
+	border-radius:5px;
+}
+
+.loginDiv #bLogin{
+	font-size:14pt;
+	margin-left:50px;
+	margin-top:15px;
+	padding:5px 17.5px;
+}
+
+.registrationDiv{
+	margin-left: 40%;
+	margin-right:40%;
+	margin-top: 100px;
+	
+	padding-left:100px;
+	padding-right:100px;
+	padding-top:50px;
+	padding-bottom:50px;
+
+	background:#FFF;
+
+	border-radius:5px;
+}
+
+.emptyCartDiv{
+	margin-left: 37%;
+	margin-right:39%;
+	margin-top: 100px;
+	padding-left:105px;
+	padding-right:100px;
+	padding-top:50px;
+	padding-bottom:50px;
+
+	background:#FFF;
+
+	border-radius:5px;
+}
+
+.registrationDiv #bRegistration{
+	font-size:14pt;
+	margin-left:25px;
+	margin-top:15px;
+	padding:5px 17.5px;
+}
+
+
+.divContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+	height:200px;
+	border: 2px solid black;
+	
+}
+
+.buttons{
+	background: #F9F0DA;
+	position:relative;
+	width: 300px;
+	flex: 0 0 200px;
+	
+	
+}
+
+.buttons form{
+	position:relative;
+	width: 200px;
+	margin: 20px 75px 0 0;
+}
+
+.buttons button{
+	width: 150px;
+	height: 45px;
+	font-size: 14pt;
+	margin-top: 5px;
+	cursor: pointer;
+	
+}
+
+.searching {
+	background: #F9F0DA;
+	margin: 0;
+	flex: 1 1 25%;
+}
+
+.searching form{
+	position:relative;
+	border-radius: 3px;
+	width: 600px;
+	margin: 75px auto;
+	background: #A3D0C3;
+}
+
+.searching input, .searching button{
+	border: none;
+	outline: none;
+	background: transparent;
+}
+
+.searching input{
+	width: 100%;
+	height: 42px;
+	padding-left:15px;
+}
+
+.searching button{
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	top:0;
+	right:0;
+	cursor:pointer;
+}
+
+.searching button:before{
+	content: "\f002";
+	font-family: FontAwesome;
+	font-size: 16px;
+	color: #F9F0DA;
+}

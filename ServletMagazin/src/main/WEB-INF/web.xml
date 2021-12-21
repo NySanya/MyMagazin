@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+
+  <servlet>
+      <servlet-name>Servlets.Main</servlet-name>
+      <servlet-class>Servlets.Main</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlets.Main</servlet-name>
+    <url-pattern>/Main/*</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlets.LogoutServlet</servlet-name>
+        <servlet-class>Servlets.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlets.LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlets.Login</servlet-name>
+        <servlet-class>Servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlets.Login</servlet-name>
+        <url-pattern>/Login/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlets.Registration</servlet-name>
+        <servlet-class>Servlets.RegistrationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlets.Registration</servlet-name>
+        <url-pattern>/Registration</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Cart.Cart</servlet-name>
+        <servlet-class>Servlets.CartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Cart.Cart</servlet-name>
+        <url-pattern>/Cart/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlets.Edit</servlet-name>
+        <servlet-class>Servlets.EditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlets.Edit</servlet-name>
+        <url-pattern>/Edit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlets.EditGood</servlet-name>
+        <servlet-class>Servlets.EditGoodServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlets.EditGood</servlet-name>
+        <url-pattern>/EditGood</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlets.RemoveGood</servlet-name>
+        <servlet-class>Servlets.RemoveGoodServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlets.RemoveGood</servlet-name>
+        <url-pattern>/RemoveGood</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlets.CreateGood</servlet-name>
+        <servlet-class>Servlets.CreateGoodServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlets.CreateGood</servlet-name>
+        <url-pattern>/CreateGood</url-pattern>
+    </servlet-mapping>
+</web-app>

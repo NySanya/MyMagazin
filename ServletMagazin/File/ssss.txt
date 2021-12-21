@@ -1,0 +1,16 @@
+1.png	Apple	15	112	1
+2.png	Orange	30	5	2
+3.png	Pizza	45	3	3
+4.png	Lemon	60	1	4
+5.png	Candy	75	5	5
+6.png	Burger	90	1	6
+7.png	Banana	105	12	7
+8.png	Water melon	120	13	8
+9.png	Melon	135	14	9
+10.png	Cherry	150	15	10
+11.png	Redberry	165	16	11
+12.png	Fiolberry	180	17	12
+13.png	Blueberry	195	18	13
+14.png	Raspberries	210	19	14
+15.png	Blackberry	225	20	15
+16.png	Sugar	240	1	16
